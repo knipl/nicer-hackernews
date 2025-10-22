@@ -4,8 +4,15 @@ https://github.com/HackerNews/API
 
 With a custom react frontend for better user experience 
 
-## internal project
+## about the project
 This app is not planned to go to production.
+
+The boilerplate code is generated via the react router framework starer app. https://reactrouter.com/start/framework/installation
+
+Did not focus too much on performance optimisation since the website will not be used by many. But there are opportunities, to:
+- cache responses for a few minutes when switching tabs
+- request less items on first load to speed up initial load time
+- do pre fethcing of the data, not on mount.
 
 ## Features
 Separate service layer handles the networking and stores the API endpoints.
